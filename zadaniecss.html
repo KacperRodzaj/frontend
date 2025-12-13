@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kacper Rodzaj">
+    <title>Zadanie HTML/CSS - Kompletne rozwiązanie</title>
+    
+    <!-- Google Fonts - Zadanie 2 Typografia -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- Zewnętrzny CSS - Zadanie 1 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- TYPOGRAFIA I KOLORY - Zadanie 2 -->
+    <h1>W pewnym małym miasteczku położonym u podnóża gór...</h1>
+
+    <div class="klasa"> <!-- KLASY CSS - Zadanie 1 -->
+        <h2>Życie płynęło spokojnie. Pewnego dnia coś się zmieniło.</h2>
+    </div>
+    
+    <h3>Do miasteczka przyjechał nieznajomy mężczyzna z walizką.</h3>
+    
+    <div id="id"> <!-- ID CSS - Zadanie 1 -->
+        <b>Pojawienie się wywołało poruszenie.</b>
+    </div>
+
+    <!-- TEKST I MATEMATYKA -->
+    <p>Pani Jadzia zauważyła <b>go jako pierwsza.</b> 
+    <mark>W ciągu tygodnia stał się lokalną zagadką.</mark></p>
+    
+    <p><var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var></p>
+
+    <div class="fonts"> <!-- RÓŻNE FONTY - Zadanie 2 -->
+        <p>Wynajął pokój nad apteką i codziennie spacerował z notatnikiem.</p>
+        <hr>
+    </div>
+
+    <!-- KOLORY I EFEKTY - Zadanie 2 -->
+    <div class="color1">
+        <p>Pan Karol próbował zagadać...</p>
+    </div>
+    
+    <div class="color2">
+        <blockquote>Mężczyzna był uprzejmy, ale zdystansowany.</blockquote>
+    </div>
+    
+    <div class="color3">ohwpu q9uh9pf</div>
+
+    <!-- LISTY - Zadanie 3 CZĘŚĆ A -->
+    <ul>
+        <li><a href="index.html">Strona Druga</a></li>
+        <li><a href="zdjecia.html">Strona Trzecia</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+
+    <b>Lista nieuporządkowana</b>
+    <ul>
+        <li>Prosty do nauki i używania</li>
+        <li>Obsługiwany przez wszystkie przeglądarki</li>
+        <li>Podstawowy język WWW</li>
+        <li>Nie wymaga kompilatora</li>
+        <li>Integruje się z CSS i JS</li>
+    </ul>
+
+    <b>Lista uporządkowana</b>
+    <ol>
+        <li>Planowanie struktury</li>
+        <li>Utworzenie HTML</li>
+        <li>Dodanie CSS</li>
+        <li>JavaScript</li>
+        <li>Publikacja</li>
+    </ol>
+
+    <!-- LISTA DEFINICJI - Zadanie 3 -->
+    <b>Lista definicji</b>
+    <dl>
+        <dt>DOCTYPE</dt>
+        <dd>Deklaracja typu dokumentu HTML.</dd>
+        <dt>Tag</dt>
+        <dd>Element składni HTML (&lt;p&gt;, &lt;div&gt;).</dd>
+        <dt>Atrybut</dt>
+        <dd>Dodatkowe informacje (href, src).</dd>
+        <dt>Element</dt>
+        <dd>Kompletny składnik z tagami i treścią.</dd>
+    </dl>
+
+    <!-- TABELA - Zadanie 3 CZĘŚĆ B -->
+    <table id="tabela" class="tabela">
+        <thead>
+            <tr><th colspan="4">Porównanie tagów HTML</th></tr>
+            <tr>
+                <th>Nazwa</th>
+                <th>Przeznaczenie</th>
+                <th>Przykład</th>
+                <th>Zamknięcie?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>p</td>
+                <td>Akapit tekstu</td>
+                <td>&lt;p&gt;tekst&lt;/p&gt;</td>
+                <td>Tak</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>Obrazek</td>
+                <td>&lt;img src="obraz.jpg" alt="opis"&gt;</td>
+                <td>Nie</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>Hiperłącze</td>
+                <td>&lt;a href="url"&gt;Link&lt;/a&gt;</td>
+                <td>Tak</td>
+            </tr>
+            <tr>
+                <td>br</td>
+                <td rowspan="2">Zmiana układu</td>
+                <td>&lt;br&gt;</td>
+                <td>Nie</td>
+            </tr>
+            <tr>
+                <td>hr</td>
+                <td>&lt;hr&gt;</td>
+                <td>Nie</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="4">Zadanie 3 - Box Model</td></tr>
+        </tfoot>
+    </table>
+
+    <!-- BOX MODEL DEMO - Zadanie 3 CZĘŚĆ C -->
+    <h3>Demo Box Model</h3>
+    <div class="same1">Jeden (content-box)</div>
+    <div class="same2">Drugi (border-box)</div>
+
+    <!-- GALERIA - Zadanie 4 -->
+    <img src="obraz1.png" alt="obraz1" width="345" height="123">
+    <img src="obraz2.jpg" alt="obraz2" width="123" height="321">
+    <img src="obraz3.png" alt="obraz3" width="435" height="567">
+
+    <figure>
+        <img src="obraz4.jpg" alt="mickey">
+        <figcaption>Mickyyy</figcaption>
+    </figure>
+
+    <!-- MULTIMEDIA - Zadanie 4 -->
+    <video width="320" height="240" controls poster="obraz1.jpg">
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Browser nie wspiera video.
+    </video>
+
+    <audio controls>
+        <source src="asd.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- MAPA -->
+    <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <!-- FORMULARZ - Zadanie 5 -->
+    <form id="kontakt">
+        <label>Imię: <input type="text" required></label><br>
+        <label>Nazwisko: <input type="text" required></label><br>
+        <label>Email: <input type="email"></label><br>
+        <label>Tel: <input type="tel" placeholder="+48 123 456 789"></label><br>
+        <label>Data: <input type="date" required></label><br>
+        
+        <fieldset>
+            <legend>Płeć:</legend>
+            <label><input type="radio" name="gender" value="male"> Mężczyzna</label>
+            <label><input type="radio" name="gender" value="female"> Kobieta</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Zainteresowania:</legend>
+            <label><input type="checkbox" name="hobby" value="tech"> Technologia</label>
+            <label><input type="checkbox" name="hobby" value="sport"> Sport</label>
+        </fieldset>
+
+        <label>Kraj:
+            <select>
+                <option>Polska</option>
+                <option>Niemcy</option>
+            </select>
+        </label>
+
+        <label>Doświadczenie: <input type="range" min="0" max="10"></label>
+        <label>CV: <input type="file" accept=".pdf,.doc"></label>
+        <textarea placeholder="Wiadomość..."></textarea>
+        <button type="submit">Wyślij</button>
+    </form>
+
+    <!-- LAYOUT - Zadanie 7 -->
+    <div id="page">
+        <header class="top">
+            <div class="logo">Moja Strona</div>
+            <nav class="menu">
+                <span>Home</span>
+                <span>O nas</span>
+                <span>Kontakt</span>
+            </nav>
+        </header>
+
+        <div class="content">
+            <main class="main-content">
+                <article class="post">
+                    <h1 class="post-title">Tytuł artykułu</h1>
+                    <p class="post-meta">Autor: Kacper Rodzaj | Data: 2025-13-12</p>
+                    <div class="post-content">
+                        <p>Pierwszy paragraf...</p>
+                    </div>
+                </article>
+            </main>
+            
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>Kategorie</h3>
+                    <nav>
+                        <div>Technologia</div>
+                        <div>Nauka</div>
+                        <div>Sport</div>
+                    </nav>
+                </div>
+            </aside>
+        </div>
+
+        <footer class="bottom">
+            <div>© 2025 Moja Strona. Wszelkie prawa zastrzeżone.</div>
+        </footer>
+    </div>
+</body>
+</html>
